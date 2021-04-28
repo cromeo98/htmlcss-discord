@@ -48,6 +48,24 @@ nav{
     width: 80%;
 }
 
+/* jumbotron */
+.jumbotron{
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    position: relative;
+}
+
+.jumbotron .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbotron .container {
+    text-align: center;
+}
 /* debug */
 .debug header{
     background-color: orange;
