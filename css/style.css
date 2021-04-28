@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 80px;
+}
+
+.debug header{
+    background-color: orange;
+}
