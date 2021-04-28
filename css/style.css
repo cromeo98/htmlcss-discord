@@ -25,6 +25,28 @@ body{
 .white{
     color: white;
 }
+
+.capitalize-1st-letter::first-letter{
+    text-transform: capitalize;
+}
+
+.btn{
+    display: inline-block;
+    line-height: 30px;
+    padding: 5px 14px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.white-black{
+    color: black;
+    background-color: white;
+}
+
+.black-white{
+    color:white;
+    background-color:black;
+}
 /* header */
 header{
     height: 80px;
@@ -62,17 +84,6 @@ nav .menu li a{
     width: 80%;
 }
 
-.btn{
-    display: inline-block;
-    background-color: white;
-    line-height: 30px;
-    padding: 5px 14px;
-    border-radius: 50px;
-    text-transform: capitalize;
-    text-decoration: none;
-    color: black;
-}
-
 /* jumbotron */
 .jumbotron{
     height: 500px;
@@ -91,6 +102,19 @@ nav .menu li a{
 .jumbotron .container {
     text-align: center;
 }
+
+.jumbotron h1{
+    margin-bottom: 20px;
+}
+
+.jumbotron p{
+    margin-bottom: 10px;
+}
+
+.jumbotron .btn{
+    margin: 5px 10px;
+}
+
 
 /* main */
 #description{
