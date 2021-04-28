@@ -4,10 +4,55 @@
     box-sizing: border-box;
 }
 
+.clear-fix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+li{
+    list-style: none;
+}
+/* header */
 header{
     height: 80px;
 }
 
+nav{
+    width: 70%;
+    margin: auto;
+    line-height: 80px;
+    height: 80px;
+}
+
+#top-logo{
+    vertical-align: middle;
+}
+
+.menu ul{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.menu{
+    width: 80%;
+}
+
+/* debug */
 .debug header{
     background-color: orange;
+}
+
+.debug nav{
+    background-color: teal;
 }
