@@ -66,6 +66,34 @@ nav{
 .jumbotron .container {
     text-align: center;
 }
+
+/* main */
+#description{
+    position: relative;
+}
+
+.container-img-text{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-img-text::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container-img-text .text{
+    width: 40%;
+}
+
+.container-img-text .img-group{
+    width: 60%;
+}
+
 /* debug */
 .debug header{
     background-color: orange;
