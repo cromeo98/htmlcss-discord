@@ -94,6 +94,11 @@ nav{
     width: 60%;
 }
 
+/* footer */
+footer .container{
+    width: 70%;
+    margin: auto;
+}
 /* debug */
 .debug header{
     background-color: orange;
@@ -114,10 +119,16 @@ nav{
 }
 
 .debug .container-img-text .text{
-    height: 600px;background-color: chocolate;
+    height: 600px;
+    background-color: chocolate;
 }
 
 .debug footer{
-    height: 800px;
+    height: 500px;
     background-color: black;
+}
+
+.debug footer .container{
+    height: 400px;
+    background-color: blue;
 }
