@@ -19,14 +19,49 @@ nav{
     vertical-align: middle;
 }
 
-nav *{
-    display: inline-block;
+.clear-fix{
+    content: '';
+    display: table;
+    clear: both;
 }
 
-nav ul{
-    margin: 0 25%;
+.float-left{
+    float: left;
 }
 
+.nav-lateral{
+    width: 25%;
+    margin: auto;
+}
+
+.menu{
+    width: 50%;
+    margin: auto;
+}
+
+.menu::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.menu-item{
+    list-style-type: none;
+    width: 20%;
+    text-align: center;    
+}
+
+nav:last-child{
+    height: 80px;
+    position: relative;
+}
+
+#sign-in{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
 /* debug */
 .debug header{
     background-color: orange;
@@ -34,4 +69,8 @@ nav ul{
 
 .debug nav{
     background-color: orchid;
+}
+
+.debug .menu{
+    background-color: palegreen;
 }
