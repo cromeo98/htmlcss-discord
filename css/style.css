@@ -4,103 +4,10 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-}
-
-.white{
-    color: white;
-}
-/* header */
 header{
     height: 80px;
-    background-color: #255ee9;
 }
 
-nav{
-    width: 70%;
-    margin: auto;
-    line-height: 80px;
-}
-
-#top-logo{
-    vertical-align: middle;
-}
-
-.clear-fix{
-    content: '';
-    display: table;
-    clear: both;
-}
-
-.float-left{
-    float: left;
-}
-
-.nav-lateral{
-    width: 25%;
-    margin: auto;
-}
-
-.menu{
-    width: 50%;
-    margin: auto;
-}
-
-.menu::after{
-    content: '';
-    display: table;
-    clear: both;
-}
-
-.menu-item{
-    list-style-type: none;
-    width: 20%;
-    text-align: center;    
-}
-
-nav:last-child{
-    height: 80px;
-    position: relative;
-}
-
-#sign-in{
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(0, -50%);
-}
-
-/* jumbotron */
-.jumbotron{
-    height: 500px;
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-    position: relative;
-}
-
-.jumbotron .container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white
-}
-
-/* debug */
-/* .debug header{
+.debug header{
     background-color: orange;
-} */
-
-/* .debug nav{
-    background-color: orchid;
-} */
-
-/* .debug .menu{
-    background-color: palegreen;
-} */
-
-/* .debug .jumbotron{
-    height: 500px;
-} */
+}
