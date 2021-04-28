@@ -74,3 +74,22 @@ nav{
 .debug nav{
     background-color: teal;
 }
+
+.debug section{
+    height: 800px;
+    background-color: tomato;
+}
+
+.debug .container-img-text{
+    height: 600px;
+    background-color: blue;
+}
+
+.debug .container-img-text .text{
+    height: 600px;background-color: chocolate;
+}
+
+.debug footer{
+    height: 800px;
+    background-color: black;
+}
