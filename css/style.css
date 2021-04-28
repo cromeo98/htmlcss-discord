@@ -4,10 +4,34 @@
     box-sizing: border-box;
 }
 
+/* header */
 header{
     height: 80px;
 }
 
+nav{
+    width: 70%;
+    margin: auto;
+    line-height: 80px;
+}
+
+#top-logo{
+    vertical-align: middle;
+}
+
+nav *{
+    display: inline-block;
+}
+
+nav ul{
+    margin: 0 25%;
+}
+
+/* debug */
 .debug header{
     background-color: orange;
+}
+
+.debug nav{
+    background-color: orchid;
 }
