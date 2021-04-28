@@ -62,6 +62,13 @@ nav:last-child{
     right: 0;
     transform: translate(0, -50%);
 }
+
+/* jumbotron */
+.jumbotron{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
 /* debug */
 .debug header{
     background-color: orange;
@@ -73,4 +80,8 @@ nav:last-child{
 
 .debug .menu{
     background-color: palegreen;
+}
+
+.debug .jumbotron{
+    height: 500px;
 }
