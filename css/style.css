@@ -17,9 +17,18 @@
 li{
     list-style: none;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.white{
+    color: white;
+}
 /* header */
 header{
     height: 80px;
+    background-color: #255ee9;
 }
 
 nav{
@@ -44,8 +53,24 @@ nav{
     margin: 0 20px;
 }
 
+nav .menu li a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
 .menu{
     width: 80%;
+}
+
+.btn{
+    display: inline-block;
+    background-color: white;
+    line-height: 30px;
+    padding: 5px 14px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
 }
 
 /* jumbotron */
@@ -101,13 +126,13 @@ footer .container{
 }
 
 /* debug */
-.debug header{
+/* .debug header{
     background-color: orange;
 }
 
 .debug nav{
     background-color: teal;
-}
+} */
 
 .debug section{
     height: 800px;
