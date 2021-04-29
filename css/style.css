@@ -23,6 +23,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.container{
+    width: 70%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
 .white{
     color: white;
 }
@@ -48,6 +54,8 @@ body{
     color:white;
     background-color:black;
 }
+
+
 /* header */
 header{
     height: 80px;
@@ -55,7 +63,7 @@ header{
 }
 
 nav{
-    width: 70%;
+    width: 100%;
     margin: auto;
     line-height: 80px;
     height: 80px;
@@ -90,17 +98,18 @@ nav .menu li a{
     height: 500px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    min-height: 500px;
     position: relative;
 }
 
-.jumbotron .container{
+.jumbotron .container-absolute{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.jumbotron .container {
+.jumbotron {
     text-align: center;
 }
 
@@ -118,37 +127,30 @@ nav .menu li a{
 
 
 /* main */
-#description{
-    position: relative;
+
+.container .text{
+    width: calc(40% - 30px);
 }
 
-.container-img-text{
-    width: 70%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.container-img-text::after{
-    content: '';
-    display: table;
-    clear: both;
-}
-
-.container-img-text .text{
-    width: 40%;
-}
-
-.container-img-text .img-group{
+.container .img-group{
     width: 60%;
 }
 
-/* footer */
-footer .container{
-    width: 70%;
-    margin: auto;
+#description{
+    margin: 100px 0;
 }
+
+#description .text{
+    margin-top: 32px;
+    margin-left: 30px;
+}
+
+.text h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+/* footer */
+
 
 /* debug */
 /* .debug header{
@@ -160,18 +162,18 @@ footer .container{
 } */
 
 .debug section{
-    height: 800px;
-    background-color: tomato;
+    /* height: 800px;
+    background-color: tomato; */
 }
 
 .debug .container-img-text{
-    height: 600px;
-    background-color: blue;
+    /* height: 600px;
+    background-color: blue; */
 }
 
 .debug .container-img-text .text{
-    height: 600px;
-    background-color: chocolate;
+    /* height: 600px;
+    background-color: chocolate; */
 }
 
 .debug footer{
