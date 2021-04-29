@@ -4,3 +4,182 @@
     box-sizing: border-box;
 }
 
+
+.clear-fix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.white{
+    color: white;
+}
+
+.capitalize-1st-letter::first-letter{
+    text-transform: capitalize;
+}
+
+.btn{
+    display: inline-block;
+    line-height: 30px;
+    padding: 5px 14px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.white-black{
+    color: black;
+    background-color: white;
+}
+
+.black-white{
+    color:white;
+    background-color:black;
+}
+/* header */
+header{
+    height: 80px;
+    background-color: #255ee9;
+}
+
+nav{
+    width: 70%;
+    margin: auto;
+    line-height: 80px;
+    height: 80px;
+}
+
+#top-logo{
+    vertical-align: middle;
+}
+
+.menu ul{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav .menu li a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.menu{
+    width: 80%;
+}
+
+/* jumbotron */
+.jumbotron{
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    position: relative;
+}
+
+.jumbotron .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jumbotron .container {
+    text-align: center;
+}
+
+.jumbotron h1{
+    margin-bottom: 20px;
+}
+
+.jumbotron p{
+    margin-bottom: 10px;
+}
+
+.jumbotron .btn{
+    margin: 5px 10px;
+}
+
+
+/* main */
+#description{
+    position: relative;
+}
+
+.container-img-text{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-img-text::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container-img-text .text{
+    width: 40%;
+}
+
+.container-img-text .img-group{
+    width: 60%;
+}
+
+/* footer */
+footer .container{
+    width: 70%;
+    margin: auto;
+}
+
+/* debug */
+/* .debug header{
+    background-color: orange;
+}
+
+.debug nav{
+    background-color: teal;
+} */
+
+.debug section{
+    height: 800px;
+    background-color: tomato;
+}
+
+.debug .container-img-text{
+    height: 600px;
+    background-color: blue;
+}
+
+.debug .container-img-text .text{
+    height: 600px;
+    background-color: chocolate;
+}
+
+.debug footer{
+    height: 500px;
+    background-color: black;
+}
+
+.debug footer .container{
+    height: 400px;
+    background-color: blue;
+}
